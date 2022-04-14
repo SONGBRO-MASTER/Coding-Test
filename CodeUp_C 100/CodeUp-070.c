@@ -2,16 +2,14 @@
 
 int main() {
 
-    int n, m;
-    scanf("%d", &n);
-    reget:
-        scanf("%d", &m);
+    int n=1;
+
+    while (n!=0) {
         
-        if(n-- != 0) {
-            
-            printf("%d\n", m);
-            goto reget;
-        } 
-       
+        scanf("%d", &n);
+        if(n==0) break;
+        printf("%d\n", n);
+    }
+    
     return 0;
 }
